@@ -1,0 +1,76 @@
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding: 0 240px;
+}
+
+/* Navigation Part Style  */
+.header{
+    background-color: #FF900E1A;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    color: #424242;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Banner Part Section style  */
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 700;
+    padding: 0 300px;
+    margin-top: 116px;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 300px;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.banner img{
+    padding-bottom: 45px;
+}
