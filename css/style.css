@@ -12,9 +12,10 @@
 }
 
 /* Navigation Part Style  */
-.header{
+.header {
     background-color: #FF900E1A;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -71,6 +72,54 @@ nav li {
     margin-top: 30px;
     margin-bottom: 50px;
 }
-.banner img{
+
+.banner img {
     padding-bottom: 45px;
+}
+
+/* Features Part Section style  */
+.features {
+    margin-top: 85px;
+}
+
+.feature {
+    display: grid;
+    gap: 76px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-img {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-info {
+    margin-top: 202px;
+}
+
+.feature-title {
+    width: 468px;
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.feature-info,
+.our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.F-feature {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
 }
