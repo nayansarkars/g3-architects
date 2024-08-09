@@ -123,3 +123,165 @@ nav li {
     line-height: 26px;
     margin-bottom: 30px;
 }
+
+/* About Section style  */
+.abouts {
+    margin-top: 85px;
+}
+
+.about {
+    display: grid;
+    gap: 146px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.about-title {
+    width: 468px;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-inline: 10px;
+    margin-bottom: 24px;
+}
+
+.about-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.about-categories {
+    display: grid;
+    gap: 20px;
+}
+
+.categories {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.categories-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.categories-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* 
+.btn-about {
+    display: grid;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 45px 42px;
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    border: 0;
+}
+
+.btn-about span {
+    font-size: 25px;
+    font-weight: 500;
+} */
+
+/* Clients Section Style */
+.clients {
+    margin-top: 130px;
+}
+
+.clients-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.clients-description {
+    width: 542px;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+
+.clients-categories {
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0 50px;
+}
+
+.clients-category {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 35px 45px;
+    text-align: center;
+}
+
+.clients-number {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.clients-category-description {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Our Sponspors Section Style  */
+.sponspors {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.sponspor-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponspor-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.sponspor-logos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* Footer Part Style */
+.footers{
+    margin-top: 120px;
+}
+.footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 40px 0;
+}
+
+.footer-description {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+}
